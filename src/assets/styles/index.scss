@@ -1,0 +1,17 @@
+:global {
+  @import "normalize";
+  @import "fonts";
+  @import "colors";
+  @import "breakpoints";
+  @import "transitions";
+
+  body{
+    background: #23db99 url("../images/app-bg.png") no-repeat right top;
+    background-size: 40%;
+    background-attachment: fixed;
+    #root {
+      height: 100%;
+    }
+  }
+
+}

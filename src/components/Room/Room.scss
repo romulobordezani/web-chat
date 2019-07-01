@@ -1,0 +1,27 @@
+.room {
+
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+
+  &__header {
+    font-size: 0.8em;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #CCC;
+  }
+
+  &__message-container {
+    overflow: scroll;
+    height: 70%;
+    padding-right: 20px;
+  }
+
+  &__sender {
+    position: absolute;
+    min-width: 300px;
+    bottom: 20px;
+  }
+
+}
